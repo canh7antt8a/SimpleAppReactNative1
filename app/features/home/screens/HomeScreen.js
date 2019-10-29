@@ -128,6 +128,7 @@ class HomeScreen extends Component<Props> {
 
   render() {
     const status = this.props.status;
+    const testCrash = status.abc;
     // console.log(TAG + ' render status= ' + JSON.stringify(status));
     console.log(
       TAG + ' render loading= ' + JSON.stringify(status.loading) + ' status.page= ' + status.page
@@ -137,6 +138,7 @@ class HomeScreen extends Component<Props> {
       return (
         <View style={{ flex: 1, justifyContent: 'center' }}>
           <ActivityIndicator style={{}} />
+          {/* <Text>{testCrash.zy.daa}</Text> */}
         </View>
       );
     } else if (
