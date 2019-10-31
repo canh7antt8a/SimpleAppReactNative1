@@ -1,4 +1,4 @@
-package com.simpleappreactnative1;
+package com.ngh.simpleappreactnative1;
 
 import android.app.Application;
 
@@ -7,6 +7,7 @@ import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
+
 
 import java.util.List;
 

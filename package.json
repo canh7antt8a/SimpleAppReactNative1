@@ -12,6 +12,8 @@
     "flow coverage": "flow coverage"
   },
   "dependencies": {
+    "@react-native-firebase/app": "^6.0.3",
+    "@react-native-firebase/crashlytics": "^6.0.3",
     "axios": "^0.19.0",
     "i18next": "^17.0.18",
     "lodash": "^4.17.15",

@@ -1,17 +1,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.simpleappreactnative1">
+    package="com.ngh.simpleappreactnative1">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".MainApplication"
+        android:name="com.ngh.simpleappreactnative1.MainApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.ngh.simpleappreactnative1.MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:windowSoftInputMode="adjustResize">

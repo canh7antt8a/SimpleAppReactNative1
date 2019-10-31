@@ -13,6 +13,7 @@ import { Drawables } from 'app/assets/images';
 import { getIntegerResources, getStringResources } from 'app/config';
 import SafeAreaView from 'react-native-safe-area-view';
 import * as NavigationHelpers from 'app/navigation/NavigationHelpers';
+import crashlytics from '@react-native-firebase/crashlytics';
 
 const TAG = 'HomeScreen';
 
@@ -36,6 +37,7 @@ class HomeScreen extends Component<Props> {
 
   getTopHeadlines(page: number, isRefreshing: boolean, initialData: ?BaseResponse) {
     console.log(TAG + ' getTopHeadlines page= ' + page + ' isRefreshing= ' + isRefreshing);
+    // this.forceCrash();
     const status = this.props.status;
 
     let isRequestMore = true;
@@ -56,6 +58,10 @@ class HomeScreen extends Component<Props> {
         isRefreshing,
         initialData
       );
+  }
+
+  forceCrash() {
+    //const testCrash = this.state.abc.def;
   }
 
   onKeyExtractor(item: any, index: number) {

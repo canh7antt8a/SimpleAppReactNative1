@@ -1,4 +1,4 @@
-package com.simpleappreactnative1;
+package com.ngh.simpleappreactnative1;
 
 import android.os.Bundle;
 
